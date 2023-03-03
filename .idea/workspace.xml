@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="155f0baf-86f9-42e9-bea6-93f69ebaad1e" name="Changes" comment="- first e2e api test scenario done">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ComplexJsonPath.java" afterDir="false" />
+    <list default="true" id="155f0baf-86f9-42e9-bea6-93f69ebaad1e" name="Changes" comment="- nested array's examples">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/files/body.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/files/body.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ComplexJsonPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ComplexJsonPath.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,13 +32,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.ComplexJsonPath">
     <configuration name="ComplexJsonPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ComplexJsonPath" />
@@ -97,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677795412151</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="- nested array's examples">
+      <created>1677880227644</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677880227647</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +120,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- first example of rest assured" />
     <MESSAGE value="- first e2e api test scenario done" />
-    <option name="LAST_COMMIT_MESSAGE" value="- first e2e api test scenario done" />
+    <MESSAGE value="- nested array's examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="- nested array's examples" />
   </component>
 </project>

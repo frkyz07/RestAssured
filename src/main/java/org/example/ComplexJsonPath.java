@@ -23,5 +23,52 @@ public class ComplexJsonPath {
 
         String title = js.get("courses[0].title");
         System.out.println(title);
+
+        // Print title of all courses and their prices
+
+        for(int i=0;i<count;i++){
+
+            String courseTitle = js.get("courses["+i+"].title");
+            System.out.println(courseTitle);
+            Integer coursePrice = js.get("courses["+i+"].price");
+            System.out.println(coursePrice);
+
+        }
+
+        // Print copy of RPA courses
+
+        for(int i=0;i<count;i++){
+
+            if(js.get("courses["+i+"].title").equals("RPA")){
+
+                Integer rpaCopy = js.get("courses["+i+"].copies");
+                System.out.println(rpaCopy);
+                break;
+            }
+        }
+
+        // Check price and copies mathches with purchase amount
+
+        Integer totalAmounth = 0;
+        for(int i=0;i<count;i++){
+
+                Integer price = js.get("courses["+i+"].price");
+                Integer copy = js.get("courses["+i+"].copies");
+                totalAmounth = totalAmounth+(price*copy);
+
+                }
+        Integer purchaseAmount = js.getInt("dashboard.purchaseAmount");
+        if(purchaseAmount==totalAmounth){
+            System.out.println("Your purchase amount is correct it is: "+totalAmounth);
+        }
+        else{
+            System.out.println("Your purchase amount is not correct it should be: "+purchaseAmount);
+        }
+
+        }
+
+
+
     }
-}
+
+
