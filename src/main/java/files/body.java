@@ -1,5 +1,7 @@
 package files;
 
+import io.restassured.path.json.JsonPath;
+
 public class body {
 
     public static String addBody(){
@@ -20,7 +22,31 @@ public class body {
                 "  \"website\": \"http://google.com\",\n" +
                 "  \"language\": \"French-IN\"\n" +
                 "}\n";
+    }
+    public static String complexJsonPath(){
 
-
+        return "{\n" +
+                "    \"dashboard\": {\n" +
+                "\t\"purchaseAmount\":910,\n" +
+                "\t\"website\":\"rahulshettyacademy.com\"\n" +
+                "    },\n" +
+                "    \"courses\": [\n" +
+                "\t{\n" +
+                "\t    \"title\":\"Selenium Python\",\n" +
+                "\t    \"price\":50,\n" +
+                "\t    \"copies\":6\n" +
+                "\t},\n" +
+                "\t{\n" +
+                "\t    \"title\":\"Cypress\",\n" +
+                "\t    \"price\":40,\n" +
+                "\t    \"copies\":4\n" +
+                "\t},\n" +
+                "\t{\n" +
+                "\t    \"title\":\"RPA\",\n" +
+                "\t    \"price\":45,\n" +
+                "\t    \"copies\":10\n" +
+                "\t}\n" +
+                "    ]\n" +
+                "}";
     }
 }
