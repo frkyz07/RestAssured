@@ -65,10 +65,8 @@ public class ComplexJsonPath {
             System.out.println("Your purchase amount is not correct it should be: "+purchaseAmount);
         }
 
-        }
-
-
-
     }
+
+}
 
 
