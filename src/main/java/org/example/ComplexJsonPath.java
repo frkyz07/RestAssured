@@ -47,7 +47,7 @@ public class ComplexJsonPath {
             }
         }
 
-        // Check price and copies mathches with purchase amount
+        // Check price and copies matches with purchase amount
 
         Integer totalAmounth = 0;
         for(int i=0;i<count;i++){

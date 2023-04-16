@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="155f0baf-86f9-42e9-bea6-93f69ebaad1e" name="Changes" comment="- nested array's examples">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DynamicTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/files/body.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/files/body.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ComplexJsonPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ComplexJsonPath.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +24,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -39,7 +42,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ComplexJsonPath">
+  <component name="RunManager" selected="TestNG.DynamicTest">
     <configuration name="ComplexJsonPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ComplexJsonPath" />
       <module name="RestAssured" />
@@ -66,8 +69,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DynamicTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DynamicTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DynamicTest" />
         <item itemvalue="Application.ComplexJsonPath" />
         <item itemvalue="Application.org.example.Main" />
       </list>
@@ -103,7 +124,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677880227647</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="- nested array's examples">
+      <created>1678050061946</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678050061946</updated>
+    </task>
+    <task id="LOCAL-00005" summary="- nested array's examples">
+      <created>1678050150770</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678050150771</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,7 +155,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- first example of rest assured" />
     <MESSAGE value="- first e2e api test scenario done" />
+    <MESSAGE value="- more examples" />
     <MESSAGE value="- nested array's examples" />
     <option name="LAST_COMMIT_MESSAGE" value="- nested array's examples" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/DynamicTest.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,8 +1,7 @@
 package files;
 
-import io.restassured.path.json.JsonPath;
-
 public class body {
+
 
     public static String addBody(){
 
@@ -48,5 +47,27 @@ public class body {
                 "\t}\n" +
                 "    ]\n" +
                 "}";
+    }
+    public static String addBookBody(String phoneNumber, String address){
+
+        String payload =
+                "{\n" +
+                        "  \"location\": {\n" +
+                        "    \"lat\": -38.383494,\n" +
+                        "    \"lng\": 33.427362\n" +
+                        "  },\n" +
+                        "  \"accuracy\": 50,\n" +
+                        "  \"name\": \"Frontline house\",\n" +
+                        "  \"phone_number\": \""+phoneNumber+"\",\n" +
+                        "  \"address\": \""+address+"\",\n" +
+                        "  \"types\": [\n" +
+                        "    \"shoe park\",\n" +
+                        "    \"shop\"\n" +
+                        "  ],\n" +
+                        "  \"website\": \"http://google.com\",\n" +
+                        "  \"language\": \"French-IN\"\n" +
+                        "}\n" +
+                        "";
+        return payload;
     }
 }
