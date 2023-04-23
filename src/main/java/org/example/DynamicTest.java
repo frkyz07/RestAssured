@@ -1,10 +1,7 @@
 package org.example;
 
-import files.Helper;
 import files.body;
 import io.restassured.RestAssured;
-import io.restassured.mapper.ObjectMapperType;
-import io.restassured.path.json.JsonPath;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;

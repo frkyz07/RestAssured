@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="155f0baf-86f9-42e9-bea6-93f69ebaad1e" name="Changes" comment="- nested array's examples">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DynamicTest.java" afterDir="false" />
+    <list default="true" id="155f0baf-86f9-42e9-bea6-93f69ebaad1e" name="Changes" comment="- testing with dynamic parameters">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JiraTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/files/body.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/files/body.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ComplexJsonPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ComplexJsonPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DynamicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DynamicTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678050150771</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="- testing with dynamic parameters">
+      <created>1681660041357</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681660041357</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,17 +163,7 @@
     <MESSAGE value="- first e2e api test scenario done" />
     <MESSAGE value="- more examples" />
     <MESSAGE value="- nested array's examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="- nested array's examples" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/DynamicTest.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="- testing with dynamic parameters" />
+    <option name="LAST_COMMIT_MESSAGE" value="- testing with dynamic parameters" />
   </component>
 </project>
