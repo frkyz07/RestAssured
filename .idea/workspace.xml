@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="155f0baf-86f9-42e9-bea6-93f69ebaad1e" name="Changes" comment="- jira test">
+    <list default="true" id="155f0baf-86f9-42e9-bea6-93f69ebaad1e" name="Changes" comment="- back in the business">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/RestAssuredTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/RestAssuredTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +41,8 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.DynamicTest">
-    <configuration name="ComplexJsonPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.org.example.RestAssuredTest">
+    <configuration name="org.example.ComplexJsonPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ComplexJsonPath" />
       <module name="RestAssured" />
       <extension name="coverage">
@@ -59,6 +61,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="files.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.RestAssuredTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.RestAssuredTest" />
+      <module name="RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,8 +100,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.RestAssuredTest" />
         <item itemvalue="TestNG.DynamicTest" />
-        <item itemvalue="Application.ComplexJsonPath" />
+        <item itemvalue="Application.org.example.ComplexJsonPath" />
         <item itemvalue="Application.org.example.Main" />
       </list>
     </recent_temporary>
@@ -149,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682283689848</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="- back in the business">
+      <created>1689193676205</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1689193676205</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,6 +193,7 @@
     <MESSAGE value="- nested array's examples" />
     <MESSAGE value="- testing with dynamic parameters" />
     <MESSAGE value="- jira test" />
-    <option name="LAST_COMMIT_MESSAGE" value="- jira test" />
+    <MESSAGE value="- back in the business" />
+    <option name="LAST_COMMIT_MESSAGE" value="- back in the business" />
   </component>
 </project>
