@@ -1,4 +1,4 @@
-package org.example;
+package files;
 
 import files.body;
 import io.restassured.path.json.JsonPath;
