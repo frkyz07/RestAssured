@@ -4,6 +4,12 @@ package org.example;
 import static io.restassured.RestAssured.given;
 import io.restassured.parsing.Parser;
 import io.restassured.path.json.JsonPath;
+import org.testng.Assert;
+
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class RestAssuredTest {
 
@@ -11,6 +17,7 @@ public class RestAssuredTest {
 
 // TODO Auto-generated method stub
 
+        String[] courseTitles = {"Selenium WebDriver Java","Cypress","Protractor"};
         String url ="https://rahulshettyacademy.com/getCourse.php?state=verifyfjdss&code=4%2FvAHBQUZU6o4WJ719NrGBzSELBFVBI9XbxvOtYpmYpeV47bFVExkaxWaF_XR14PHtTZf7ILSEeamywJKwo_BYs9M&scope=email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&session_state=0c32992f0d47e93d273922018ade42d1072b9d1f..a35c&prompt=none#";
         String partialcode=url.split("code=")[1];
         String code=partialcode.split("&scope")[0];
@@ -44,7 +51,26 @@ public class RestAssuredTest {
                 .as(POJOClass.class);
         System.out.println(r2);
         System.out.println(r2.getLinkedIn());
+
+        List<Api> apiCourses = r2.getCourses().getApi();
+        for (int i =0; i<apiCourses.size();i++){
+
+            if(apiCourses.get(i).getCourseTitle().equals("SoapUI WebServicestesting")){
+
+                System.out.println(apiCourses.get(i).getPrice());
+            }
+        }
+        ArrayList<String> a = new ArrayList();
+        List<WebAutomation> WebCourses = r2.getCourses().getWebAutomation();
+        for (int i =0; i<WebCourses.size();i++){
+
+            a.add(WebCourses.get(i).getCourseTitle());
+        }
+
+        ArrayList<String> b = (ArrayList<String>) Arrays.asList(courseTitles);
+        Assert.assertTrue(a.equals(b));
     }
+
 
 
 

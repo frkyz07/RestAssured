@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="155f0baf-86f9-42e9-bea6-93f69ebaad1e" name="Changes" comment="- pojo class implementation">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Api.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ChildPojoClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Mobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/POJOClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WebAutomation.java" afterDir="false" />
+    <list default="true" id="155f0baf-86f9-42e9-bea6-93f69ebaad1e" name="Changes" comment="- rearranging the file structure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/RestAssuredTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/RestAssuredTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,8 +46,8 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.org.example.RestAssuredTest">
-    <configuration name="org.example.ComplexJsonPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ComplexJsonPath" />
+    <configuration name="ComplexJsonPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="files.ComplexJsonPath" />
       <module name="RestAssured" />
       <extension name="coverage">
         <pattern>
@@ -65,8 +59,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="files.Main" />
       <module name="RestAssured" />
       <extension name="coverage">
         <pattern>
@@ -100,7 +94,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.DynamicTest" />
+      <option name="MAIN_CLASS_NAME" value="files.DynamicTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -203,7 +197,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689276487834</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="- pojo class implementation">
+      <created>1689283590989</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1689283590989</updated>
+    </task>
+    <task id="LOCAL-00013" summary="- rearranging the file structure">
+      <created>1689283752079</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1689283752079</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,6 +235,7 @@
     <MESSAGE value="- back in the business" />
     <MESSAGE value="- small cleaning" />
     <MESSAGE value="- pojo class implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="- pojo class implementation" />
+    <MESSAGE value="- rearranging the file structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="- rearranging the file structure" />
   </component>
 </project>
