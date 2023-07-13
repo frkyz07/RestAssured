@@ -37,13 +37,13 @@ public class RestAssuredTest {
         String accessToken = jsonPath.getString("access_token");
         System.out.println(accessToken);
 
-        String r2=    given().contentType("application/json").
+        POJOClass r2=    given().contentType("application/json").
                 queryParams("access_token", accessToken).expect().defaultParser(Parser.JSON)
                 .when()
                 .get("https://rahulshettyacademy.com/getCourse.php")
-                .asString();
+                .as(POJOClass.class);
         System.out.println(r2);
-
+        System.out.println(r2.getLinkedIn());
     }
 
 

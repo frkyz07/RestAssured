@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="155f0baf-86f9-42e9-bea6-93f69ebaad1e" name="Changes" comment="- small cleaning" />
+    <list default="true" id="155f0baf-86f9-42e9-bea6-93f69ebaad1e" name="Changes" comment="- pojo class implementation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Api.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ChildPojoClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Mobile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/POJOClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WebAutomation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/RestAssuredTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/RestAssuredTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,13 +46,18 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.org.example.RestAssuredTest">
     <configuration name="org.example.ComplexJsonPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ComplexJsonPath" />
       <module name="RestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.WebAutomation" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,7 +83,7 @@
       <module name="RestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.WebAutomation" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,7 +95,7 @@
       <module name="RestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.WebAutomation" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689276404035</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="- small cleaning">
+      <created>1689276487834</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1689276487834</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,6 +226,7 @@
     <MESSAGE value="- jira test" />
     <MESSAGE value="- back in the business" />
     <MESSAGE value="- small cleaning" />
-    <option name="LAST_COMMIT_MESSAGE" value="- small cleaning" />
+    <MESSAGE value="- pojo class implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="- pojo class implementation" />
   </component>
 </project>
