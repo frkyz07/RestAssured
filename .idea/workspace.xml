@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="155f0baf-86f9-42e9-bea6-93f69ebaad1e" name="Changes" comment="- rearranging the file structure">
+    <list default="true" id="155f0baf-86f9-42e9-bea6-93f69ebaad1e" name="Changes" comment="- examples of serialization and deserialization">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/AddPlace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/pojoExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/RestAssuredTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/RestAssuredTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +47,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.RestAssuredTest">
+  <component name="RunManager" selected="Application.pojoExample">
     <configuration name="ComplexJsonPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="files.ComplexJsonPath" />
       <module name="RestAssured" />
@@ -85,6 +87,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="pojoExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pojo.pojoExample" />
+      <module name="RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pojo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DynamicTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssured" />
       <extension name="coverage">
@@ -104,6 +119,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.pojoExample" />
         <item itemvalue="Application.org.example.RestAssuredTest" />
         <item itemvalue="TestNG.DynamicTest" />
         <item itemvalue="Application.org.example.ComplexJsonPath" />
@@ -211,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689283752079</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="- examples of serialization and deserialization">
+      <created>1689286345125</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1689286345126</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,6 +259,7 @@
     <MESSAGE value="- small cleaning" />
     <MESSAGE value="- pojo class implementation" />
     <MESSAGE value="- rearranging the file structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="- rearranging the file structure" />
+    <MESSAGE value="- examples of serialization and deserialization" />
+    <option name="LAST_COMMIT_MESSAGE" value="- examples of serialization and deserialization" />
   </component>
 </project>
