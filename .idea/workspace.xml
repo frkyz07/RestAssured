@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="155f0baf-86f9-42e9-bea6-93f69ebaad1e" name="Changes" comment="- examples of serialization and deserialization">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/AddPlace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/pojoExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ecommerce/EcommerApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ecommerce/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ecommerce/LoginResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/specBuilder/pojo/AddPlace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/specBuilder/pojo/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/specBuilder/pojo/pojoExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,38 +38,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/farukayaz/Documents/RestAssured/src/main/java/specBuilder"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/specBuilder" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.pojoExample">
-    <configuration name="ComplexJsonPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="files.ComplexJsonPath" />
+  <component name="RunManager" selected="Application.EcommerApiTest">
+    <configuration name="EcommerApiTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ecommerce.EcommerApiTest" />
       <module name="RestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.WebAutomation" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="files.Main" />
-      <module name="RestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="files.*" />
+          <option name="PATTERN" value="Ecommerce.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,6 +95,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="specBuilder.pojo.pojoExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="specBuilder.pojo.pojoExample" />
+      <module name="RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ecommerce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DynamicTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssured" />
       <extension name="coverage">
@@ -119,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EcommerApiTest" />
+        <item itemvalue="Application.specBuilder.pojo.pojoExample" />
         <item itemvalue="Application.pojoExample" />
         <item itemvalue="Application.org.example.RestAssuredTest" />
         <item itemvalue="TestNG.DynamicTest" />
-        <item itemvalue="Application.org.example.ComplexJsonPath" />
-        <item itemvalue="Application.org.example.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689286345126</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="- examples of serialization and deserialization">
+      <created>1689546921142</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1689546921143</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
