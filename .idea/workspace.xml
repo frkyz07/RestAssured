@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="155f0baf-86f9-42e9-bea6-93f69ebaad1e" name="Changes" comment="- api add product automation">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ecommerce/OrderDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ecommerce/Orders.java" afterDir="false" />
+    <list default="true" id="155f0baf-86f9-42e9-bea6-93f69ebaad1e" name="Changes" comment="- api add order automation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Ecommerce/EcommerApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ecommerce/EcommerApiTest.java" afterDir="false" />
     </list>
@@ -260,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689630184416</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="- api add order automation">
+      <created>1689631338462</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1689631338463</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -288,6 +293,7 @@
     <MESSAGE value="- examples of serialization and deserialization" />
     <MESSAGE value="- api login automation" />
     <MESSAGE value="- api add product automation" />
-    <option name="LAST_COMMIT_MESSAGE" value="- api add product automation" />
+    <MESSAGE value="- api add order automation" />
+    <option name="LAST_COMMIT_MESSAGE" value="- api add order automation" />
   </component>
 </project>

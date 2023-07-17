@@ -9,6 +9,7 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
+import static io.restassured.RestAssured.delete;
 import static io.restassured.RestAssured.given;
 
 public class EcommerApiTest {
@@ -55,7 +56,7 @@ public class EcommerApiTest {
         String productId = js.get("productId");
         System.out.println("this is added productId: "+productId);
 
-        //Create Order
+        //Create Order API Call
         RequestSpecification createOrderBaseReq =  new RequestSpecBuilder().
                 setBaseUri("https://rahulshettyacademy.com/").setContentType(ContentType.JSON).
                 addHeader("authorization",token).build();
@@ -77,6 +78,21 @@ public class EcommerApiTest {
 
         System.out.println(responseAddOrder);
 
+        //Delete order API Call
+
+        RequestSpecification deleteProdBaseReq =  new RequestSpecBuilder().
+                setBaseUri("https://rahulshettyacademy.com/").setContentType(ContentType.JSON).
+                addHeader("authorization",token).build();
+        
+        RequestSpecification deleteProdReq = given().log().all().spec(deleteProdBaseReq).
+                pathParam("productId",productId);
+
+        String deleteResponse = deleteProdReq.when().delete("api/ecom/product/delete-product/{productId}").
+        then().log().all().extract().response().asString();
+
+        JsonPath js1 = new JsonPath(deleteResponse);
+        String deleteMessage = js1.get("message");
+        System.out.println("Your message: "+deleteMessage);
 
     }
 }
