@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="155f0baf-86f9-42e9-bea6-93f69ebaad1e" name="Changes" comment="- api delete order automation">
+    <list default="true" id="155f0baf-86f9-42e9-bea6-93f69ebaad1e" name="Changes" comment="- cucumber integration">
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinition/stepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberOptions/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/login.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -50,39 +53,13 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EcommerApiTest">
+  <component name="RunManager" selected="Cucumber Java.Feature: login">
     <configuration name="EcommerApiTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ecommerce.EcommerApiTest" />
       <module name="RestAssured" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Ecommerce.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.example.RestAssuredTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.RestAssuredTest" />
-      <module name="RestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.WebAutomation" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="pojoExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pojo.pojoExample" />
-      <module name="RestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pojo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,30 +80,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DynamicTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/Login.feature" />
+      <option name="GLUE" value="StepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="RestAssured" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Login" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.WebAutomation" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="files.DynamicTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/login.feature" />
+      <option name="GLUE" value="StepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="RestAssured" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: login" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumberOptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cucumberOptions" />
+      <option name="MAIN_CLASS_NAME" value="cucumberOptions.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: login" />
+        <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Feature: Login" />
         <item itemvalue="Application.EcommerApiTest" />
         <item itemvalue="Application.specBuilder.pojo.pojoExample" />
-        <item itemvalue="Application.pojoExample" />
-        <item itemvalue="Application.org.example.RestAssuredTest" />
-        <item itemvalue="TestNG.DynamicTest" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689635763088</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="- cucumber integration">
+      <created>1689763008371</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1689763008372</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -302,6 +322,7 @@
     <MESSAGE value="- api add product automation" />
     <MESSAGE value="- api add order automation" />
     <MESSAGE value="- api delete order automation" />
-    <option name="LAST_COMMIT_MESSAGE" value="- api delete order automation" />
+    <MESSAGE value="- cucumber integration" />
+    <option name="LAST_COMMIT_MESSAGE" value="- cucumber integration" />
   </component>
 </project>
