@@ -12,7 +12,7 @@ public class stepDefinition {
 
     @Given("^User is on the landing page$")
     public void user_is_on_the_landing_page() throws Throwable {
-        System.out.println("User is on the landing page");
+        System.out.println("User is on the landing page ");
     }
 
     @When("^User login into app with username \"([^\"]*)\" and password \"([^\"]*)\"$")
